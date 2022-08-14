@@ -10,7 +10,7 @@
 
 # Problem List
 #### Click On Any Problem 
-* [**1. Solid Rectangle :**](#1solid-rectangle)
+* [**1. Solid Rectangle :**](#1-solid-rectangle)
 * [**2. Hollow Rectangle :**](#2-hollow-rectangle)
 * [**3. Half Pyramid :**](#3-half-pyramid)
 * [**4. Inverted half Pyramid :**](#4-inverted-half-pyramid)
