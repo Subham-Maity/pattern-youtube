@@ -1,10 +1,10 @@
-# JAVA- Python - C++  Pattern Problem Series For Beginners
+#### JAVA- Python - C++  Pattern Problem Series For Beginners - Xam 
 
 ********
-## I cover all type of Pattern Problems  from Basic to Pro Level Check this Explanation Video Playlist .
-# [Check Here](https://www.youtube.com/watch?v=Ucwgn-wcbGs&list=PL24H0nY4FDEmxeSyPoyBmvHV5V_T0Bk5w&ab_channel=Xam)
-**************
-### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended !
+##### I cover all type of Pattern Problems  from Basic to Pro Level Check this Explanation Video Playlist .
+### [Check Here](https://www.youtube.com/watch?v=Ucwgn-wcbGs&list=PL24H0nY4FDEmxeSyPoyBmvHV5V_T0Bk5w&ab_channel=Xam)
+
+###### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended !
 
 
 
