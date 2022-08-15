@@ -17,6 +17,7 @@
 * [**5. Inverted & Rotated Half Pyramid :**](#5-inverted--rotated-half-pyramid)
 * [**6. Half Pyramid with Numbers :**](#6-half-pyramid-with-numbers)
 * [**7. Inverted half Pyramid with Numbers :**](#7-inverted-half-pyramid-with-numbers)
+* [**8. Floyd’s triangle :**](#8-floyds-triangle)
 
 ****************************
 ****************************
@@ -691,3 +692,86 @@ for i in range(5, 0, -1):
     print(" ")
 
 ```
+
+
+
+*****************
+# 8. Floyd’s triangle
+
+## Explanation Video(Hindi) - [Click here](https://youtu.be/kfyRW9AjJEw)
+
+
+## Exercise
+Print the pattern using for loop
+
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/8p.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/8p1.png?raw=true"/>
+        </p>
+
+
+## Solution
+
+### Java :
+
+```java
+
+public class CodeXam {
+    public static void main(String[] args) {
+        int num =1 ;
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(num++ + " ");
+            }
+
+            System.out.println();
+
+        }
+    }
+}
+
+```
+
+### C++ :
+
+```cpp
+
+#include <iostream>
+using namespace std;
+ int main()
+{
+    int num = 1;
+    for (int i = 1; i <= 5; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << num++ << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+```
+
+
+
+### Python :
+
+
+```python
+
+for i in range(1, 6):
+    for j in range(1, i+1):
+        print(num, end="  ")
+        num += 1
+    print("  ")
+
+```
+**************************
