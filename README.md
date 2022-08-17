@@ -1,24 +1,31 @@
-#### JAVA- Python - C++  Pattern Problem Series For Beginners - Xam 
+# Problem List
+#### Click On Any Problem
+* [**01. Solid Rectangle :**](#1-solid-rectangle)
+* [**02. Hollow Rectangle :**](#2-hollow-rectangle)
+* [**03. Half Pyramid :**](#3-half-pyramid)
+* [**04. Inverted half Pyramid :**](#4-inverted-half-pyramid)
+* [**05. Inverted & Rotated Half Pyramid :**](#5-inverted--rotated-half-pyramid)
+* [**06. Half Pyramid with Numbers :**](#6-half-pyramid-with-numbers)
+* [**07. Inverted half Pyramid with Numbers :**](#7-inverted-half-pyramid-with-numbers)
+* [**08. Floyd’s triangle :**](#8-floyds-triangle)
+* [**09. (0-1) Triangle:**](#9-0-1-triangle)
+* [**10. Butterfly Pattern With Double Joint :**](#10-butterfly-pattern-with-double-joint)
+
+**************************************
+### JAVA- Python - C++  Pattern Problem Series For Beginners - Xam 
 
 ********
 ##### I cover all type of Pattern Problems  from Basic to Pro Level Check this Explanation Video Playlist .
 ### [Check Here](https://www.youtube.com/watch?v=Ucwgn-wcbGs&list=PL24H0nY4FDEmxeSyPoyBmvHV5V_T0Bk5w&ab_channel=Xam)
 
 ###### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended !
+*******************
+# Quality less canvas [1-20 problems]
+## [download here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/Total%209%20pattern%20problem%20in%201%20canvas%20.svg)
+## [download here](https://raw.githubusercontent.com/Subham-Maity/java-python-problem-solving-series/master/Image(ignore)/9-19%20all%20pattern%20canvas%20.svg)
 
 
 
-# Problem List
-#### Click On Any Problem 
-* [**1. Solid Rectangle :**](#1-solid-rectangle)
-* [**2. Hollow Rectangle :**](#2-hollow-rectangle)
-* [**3. Half Pyramid :**](#3-half-pyramid)
-* [**4. Inverted half Pyramid :**](#4-inverted-half-pyramid)
-* [**5. Inverted & Rotated Half Pyramid :**](#5-inverted--rotated-half-pyramid)
-* [**6. Half Pyramid with Numbers :**](#6-half-pyramid-with-numbers)
-* [**7. Inverted half Pyramid with Numbers :**](#7-inverted-half-pyramid-with-numbers)
-* [**8. Floyd’s triangle :**](#8-floyds-triangle)
-* [**9. (0-1) Triangle:**](#9-0-1-triangle)
 
 ****************************
 ****************************
@@ -863,6 +870,151 @@ for i in range(1, 6):
     print(" ")
    
 
+```
+
+
+
+
+**************************
+# 10. Butterfly Pattern With Double Joint
+## Explanation Video(Hindi) - [Click here](https://youtu.be/zNmt0rCH7SY)
+## Exercise
+Print the pattern using for loop
+
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p.png?raw=true"/>
+        </p>
+
+
+
+## Approach:
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p1.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+## Solution
+
+
+
+
+### Java :
+
+```java
+public class CodeXam {
+    public static void main(String args[]) {
+        int n = 4;
+
+        //upper part
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" ");
+            }
+
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        //lower part
+        for(int i=n; i>=1; i--) {
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" ");
+            }
+
+            for(int j=1; j<=i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
+
+### C++ :
+
+```cpp
+#include <iostream>
+using namespace std;
+ int main() {
+     int n = 4;
+     //upper part
+     for(int i=1; i<=n; i++) {
+         for(int j=1; j<=i; j++) {
+             cout << "*";
+         }
+         int spaces = 2 * (n-i);
+         for(int j=1; j<=spaces; j++) {
+             cout << " ";
+         }
+         for(int j=1; j<=i; j++) {
+             cout << "*";
+         }
+         cout << endl;
+     }
+     //lower part
+     for(int i=n; i>=1; i--) {
+         for(int j=1; j<=i; j++) {
+             cout << "*";
+         }
+         int spaces = 2 * (n-i);
+         for(int j=1; j<=spaces; j++) {
+             cout << " ";
+         }
+         for(int j=1; j<=i; j++) {
+             cout << "*";
+         }
+         cout << endl;
+     }
+     return 0;
+ }
+```
+
+### Python :
+
+
+```python
+n = 4
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print("*", end=" ")
+    for space in range(1, (2 * (n - i)) + 1):
+        print(end="  ")
+ 
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+    print()
+ 
+for i in range(n, 0, -1):
+ 
+    for j in range(1, i + 1):
+        print("*", end=" ")
+    for space in range(1, (2 * (n - i)) + 1):
+        print(end="  ")
+ 
+    for j in range(i, 0, -1):
+        print("*", end=" ")
+    print()
 ```
 
 
