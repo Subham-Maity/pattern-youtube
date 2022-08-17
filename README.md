@@ -775,3 +775,96 @@ for i in range(1, 6):
 
 ```
 **************************
+
+# 9. 0-1 Triangle
+
+## Explanation Video(Hindi) - [Click here](https://youtu.be/SZd4aa47tiI)
+
+
+## Exercise
+Print the pattern using for loop
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p.png?raw=true"/>
+        </p>
+
+## Approach:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p1.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p2.png?raw=true"/>
+        </p>
+
+## Solution
+
+### Java :
+
+```java
+public class code_xam {
+    public static void main(String args[]) {
+        int n = 5;
+        int sum;
+ 
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                sum = i+j;
+                if((sum) % 2 == 0) {
+                    System.out.print(1+" ");
+                } else {
+                    System.out.print(0+" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
+
+### C++ :
+
+```cpp
+
+ #include <iostream>
+using namespace std;
+ int main() {
+     for (int i = 1; i <= 5; i++) {
+         for (int j = 1; j <= i; j++) {
+             int sum = i+j;
+             if (sum % 2 == 0){
+                 cout << 1 << " ";
+             }
+             else{
+                 cout << 0 << " ";
+             }
+         }
+         cout << endl;
+     }
+     return 0;
+ }
+```
+
+### Python :
+
+
+```python
+for i in range(1, 6):
+    for j in range(1, i+1):
+        sums = i + j
+        if sums % 2 == 0:
+            print(1, end=" ")
+        else:
+            print(0, end=" ")
+    print(" ")
+   
+
+```
+
+
+
+
+**************************
