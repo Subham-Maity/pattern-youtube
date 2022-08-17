@@ -18,6 +18,7 @@
 * [**6. Half Pyramid with Numbers :**](#6-half-pyramid-with-numbers)
 * [**7. Inverted half Pyramid with Numbers :**](#7-inverted-half-pyramid-with-numbers)
 * [**8. Floyd’s triangle :**](#8-floyds-triangle)
+* [**9. (0-1) Triangle:**](#9-0-1-triangle)
 
 ****************************
 ****************************
