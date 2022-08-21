@@ -1011,7 +1011,7 @@ for i in range(n, 0, -1):
 
 **************************
 # 11. Butterfly Pattern With Single Joint
-## Explanation Video(Hindi) - [Click here]()
+## Explanation Video(Hindi) - [Click here](https://youtu.be/IPFaJh6vqtc)
 ## Exercise
 Print the pattern using for loop
 
