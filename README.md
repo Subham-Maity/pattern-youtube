@@ -35,9 +35,8 @@
 ## Exercise
 Print the pattern using for loop
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/1%20p.png?raw=true"/>
-        </p>
+![Pattern1](https://user-images.githubusercontent.com/97989643/185774864-2368f5ad-206b-44cc-8768-c1002441a0e2.jpg)
+
 
 ## Approach:
 ```javascript
@@ -122,9 +121,8 @@ for i in range(1, 5):
 ## Explanation Video(Hindi) - [Click here](https://youtu.be/08RP_L9D-VQ)
 ## Exercise
 Print the pattern using for loop
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/2p.png?raw=true"/>
-        </p>
+
+![Pattern2](https://user-images.githubusercontent.com/97989643/185774885-1be6b8d1-1519-4f20-9b13-12e1d6e4d1b3.jpg)
 
 ## Approach:
 <p align="center">
@@ -212,9 +210,8 @@ for i in range(1, 5):
 ## Exercise
 Print the pattern using for loop
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/3p.png?raw=true"/>
-        </p>
+![Pattern3](https://user-images.githubusercontent.com/97989643/185774891-0d01aec9-5116-4656-925a-7d8a0765a8bf.jpg)
+
 
 ## Approach:
 
