@@ -1009,3 +1009,112 @@ for i in range(n, 0, -1):
 
 
 **************************
+# 11. Butterfly Pattern With Single Joint
+## Explanation Video(Hindi) - [Click here]()
+## Exercise
+Print the pattern using for loop
+
+
+
+
+
+
+
+
+## Approach:
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p2.png?raw=true"/>
+        </p>
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p3.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+## Solution
+
+
+
+
+### Java :
+
+```java
+public class CodeXam
+{
+    public static void main(String[] args)
+    {
+        for(int i=-3;i<=3;i++)
+        {
+            for(int j=1;j<=4-Math.abs(i);j++)
+            {
+                System.out.print("*" + " ");
+            }
+            for(int j=1;j<=2*Math.abs(i);j++)
+            {
+                System.out.print(" " + " " );
+            }
+            for(int j=1;j<=4-Math.abs(i);j++)
+            {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
+
+### C++ :
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    for(int i=-3;i<=3;i++)
+    {
+        for(int j=1;j<=4-abs(i);j++)
+        {
+            cout<<"*"<<" ";
+        }
+        for(int j=1;j<=2*abs(i);j++)
+        {
+            cout<<" "<<" ";
+        }
+        for(int j=1;j<=4-abs(i);j++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+```
+
+### Python :
+
+
+```python
+n = 3
+for i in range(-n, n+1):
+    for j in range(1, (n+1)-abs(i)+1):
+        print("*", end=" ")
+    for j in range(1, 2*abs(i)+1):
+        print(" ", end=" ")
+    for u in range(1, (n+1)-abs(i)+1):
+        print("*", end=" ")
+    print(" ")
+ 
+```
+
+
+
+
+**************************
