@@ -1016,6 +1016,7 @@ for i in range(n, 0, -1):
 Print the pattern using for loop
 
 
+![Pattern11](https://user-images.githubusercontent.com/97989643/185775487-82c8086a-65cf-4b20-a477-c896f815a028.jpg)
 
 
 
