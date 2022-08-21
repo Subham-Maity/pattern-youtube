@@ -283,9 +283,8 @@ for i in range(0, 5):
 Print the pattern using for loop
 
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/4p.png?raw=true"/>
-        </p>
+![Pattern4](https://user-images.githubusercontent.com/97989643/185774930-6572bb2a-4744-4c30-842b-7de1718849cf.jpg)
+
 
 ## Approach:
 
@@ -380,12 +379,9 @@ for i in range(4, 0, -1):
 ## Exercise
 Print the pattern using for loop
 
+![Pattern5](https://user-images.githubusercontent.com/97989643/185774953-8a8573d2-c06f-41da-9c66-d1b000ddd1f6.jpg)
 
 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/5p.png?raw=true"/>
-        </p>
 
 ## Approach:
 
@@ -507,10 +503,9 @@ for i in range(1, 5):
 ## Exercise
 Print the pattern using for loop
 
+![Pattern6](https://user-images.githubusercontent.com/97989643/185774966-1e22ecba-db65-4a2d-9cfa-45eb5de8b615.jpg)
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/6p.png?raw=true"/>
-        </p>
+
 
 ## Approach:
 
@@ -594,10 +589,9 @@ for i in range(0, 5):
 Print the pattern using for loop
 
 
+![Pattern7](https://user-images.githubusercontent.com/97989643/185774973-ca198236-9a5f-4cb3-9a2a-8d4f10b5360a.jpg)
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/7p.png?raw=true"/>
-        </p>
+
 
 ## Approach:
 
@@ -710,10 +704,9 @@ for i in range(5, 0, -1):
 Print the pattern using for loop
 
 
+![Pattern8](https://user-images.githubusercontent.com/97989643/185774977-2bc0f3f1-ac16-4a38-9180-e62c5b6a6887.jpg)
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/8p.png?raw=true"/>
-        </p>
+
 
 ## Approach:
 
@@ -789,10 +782,9 @@ for i in range(1, 6):
 ## Exercise
 Print the pattern using for loop
 
+![Pattern9](https://user-images.githubusercontent.com/97989643/185774984-affc83c2-970a-4411-bb26-3cc8a4dbc2f3.jpg)
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/9p.png?raw=true"/>
-        </p>
+
 
 ## Approach:
 
@@ -880,9 +872,8 @@ Print the pattern using for loop
 
 
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/java-python-problem-solving-series/blob/master/Image(ignore)/10p.png?raw=true"/>
-        </p>
+![Pattern10](https://user-images.githubusercontent.com/97989643/185775003-02e56d02-8558-40aa-96e5-7efc533dfd2e.jpg)
+
 
 
 
