@@ -10,6 +10,7 @@
 * [**08. Floyd’s triangle :**](#8-floyds-triangle)
 * [**09. (0-1) Triangle:**](#9-0-1-triangle)
 * [**10. Butterfly Pattern With Double Joint :**](#10-butterfly-pattern-with-double-joint)
+* [**11. Butterfly Pattern With Single Joint :**](#11-butterfly-pattern-with-single-joint)
 
 **************************************
 ### JAVA- Python - C++  Pattern Problem Series For Beginners - Xam 
