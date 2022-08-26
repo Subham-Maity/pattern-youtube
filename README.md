@@ -1128,6 +1128,7 @@ Print the pattern using for loop
 
 
 
+![Pattern12](https://user-images.githubusercontent.com/97989643/186866863-8cbda911-15e0-45dd-92f1-cbf2d38247cf.jpg)
 
 
 
@@ -1139,6 +1140,7 @@ Print the pattern using for loop
 
 
 
+![9-19 all pattern canvas  copy](https://user-images.githubusercontent.com/97989643/186866674-b3c5265a-05c6-4499-b372-a36567cb0f9d.png)
 
 
 
