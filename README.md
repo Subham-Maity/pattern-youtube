@@ -11,6 +11,7 @@
 * [**09. (0-1) Triangle:**](#9-0-1-triangle)
 * [**10. Butterfly Pattern With Double Joint :**](#10-butterfly-pattern-with-double-joint)
 * [**11. Butterfly Pattern With Single Joint :**](#11-butterfly-pattern-with-single-joint)
+* [**12. Hollow butterfly With Double Joint :**](#12-hollow-butterfly-with-double-joint)
 
 **************************************
 ### JAVA- Python - C++  Pattern Problem Series For Beginners - Xam 
@@ -1114,6 +1115,188 @@ for i in range(-n, n+1):
         print("*", end=" ")
     print(" ")
  
+```
+
+
+
+
+**************************
+# 12. Hollow butterfly With Double Joint 
+## Explanation Video(Hindi) - [Click here](https://youtu.be/hsWFmd4nTu4)
+## Exercise
+Print the pattern using for loop
+
+
+
+
+
+
+
+
+
+## Approach:
+
+
+
+
+
+
+
+
+
+## Solution
+
+
+
+
+### Java :
+
+```java
+public class CodeXam {
+    public static void main(String args[]) {
+        int n = 4;
+
+        //upper part
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                if(j==1 || j==i)
+                System.out.print("*" + " ");
+                else
+                 System.out.print(" " + " " );
+            }
+
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" " + " ");
+            }
+
+            for(int j=1; j<=i; j++) {
+                if(j==1 || j==i)
+                    System.out.print("*" + " ");
+                else
+                    System.out.print(" " + " " );
+            }
+            System.out.println();
+        }
+
+        //lower part
+        for(int i=n; i>=1; i--) {
+            for(int j=1; j<=i; j++) {
+                if(j==1 || j==i)
+                    System.out.print("*" + " ");
+                else
+                    System.out.print(" " + " " );
+            }
+
+            int spaces = 2 * (n-i);
+            for(int j=1; j<=spaces; j++) {
+                System.out.print(" " + " ");
+            }
+
+            for(int j=1; j<=i; j++) {
+                if(j==1 || j==i)
+                    System.out.print("*" + " ");
+                else
+                    System.out.print(" " + " " );
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+### C++ :
+
+```cpp
+#include<iostream>
+using namespace std;
+int main() 
+{
+    int n = 4;
+    //upper part
+    for(int i=1; i<=n; i++) {
+        for(int j=1; j<=i; j++) {
+            if(j==1 || j==i)
+                cout<<"*"<<" ";
+            else
+                cout<<" "<<" " ;
+        }
+
+        int spaces = 2 * (n-i);
+        for(int j=1; j<=spaces; j++) {
+            cout<<" "<<" ";
+        }
+
+        for(int j=1; j<=i; j++) {
+            if(j==1 || j==i)
+                cout<<"*"<<" ";
+            else
+                cout<<" "<<" " ;
+        }
+        cout<<endl;
+    }
+    //lower part
+    for(int i=n; i>=1; i--) {
+        for(int j=1; j<=i; j++) {
+            if(j==1 || j==i)
+                cout<<"*"<<" ";
+            else
+                cout<<" "<<" " ;
+        }
+
+        int spaces = 2 * (n-i);
+        for(int j=1; j<=spaces; j++) {
+            cout<<" "<<" ";
+        }
+
+        for(int j=1; j<=i; j++) {
+            if(j==1 || j==i)
+                cout<<"*"<<" ";
+            else
+                cout<<" "<<" " ;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+```
+
+### Python :
+
+
+```python
+n = 5
+for i in range(1, n + 1):
+   space = 2 * n - 2 * i
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   for j in range(space):
+       print(" ", end='')
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   print()
+ 
+for i in range(n, 0, -1):
+   space = 2 * n - 2 * i
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   for j in range(space):
+       print(" ", end='')
+   for j in range(1, i + 1):
+       if j == 1 or j == i:
+           print("*", end='')
+       else:
+           print(" ", end='')
+   print()
 ```
 
 
